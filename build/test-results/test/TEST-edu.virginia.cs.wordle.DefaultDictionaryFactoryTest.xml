@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.virginia.cs.wordle.DefaultDictionaryFactoryTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-03-31T19:51:07" hostname="Kates-MacBook-Pro.local" time="0.059">
+  <properties/>
+  <testcase name="DefaultDictionaryFactory - EQUIVALENCE - Default Answers Dictionary not null and size" classname="edu.virginia.cs.wordle.DefaultDictionaryFactoryTest" time="0.01"/>
+  <testcase name="DefaultDictionaryFactory - EQUIVALENCE - Default Guesses Dictionary not null and size" classname="edu.virginia.cs.wordle.DefaultDictionaryFactoryTest" time="0.048"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

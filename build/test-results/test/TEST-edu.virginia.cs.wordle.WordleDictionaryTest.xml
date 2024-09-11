@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.virginia.cs.wordle.WordleDictionaryTest" tests="20" skipped="0" failures="0" errors="0" timestamp="2023-03-31T19:51:07" hostname="Kates-MacBook-Pro.local" time="0.221">
+  <properties/>
+  <testcase name="WordleDictionary - EXCEPTION: addWord with non letters - AB12!" classname="edu.virginia.cs.wordle.WordleDictionaryTest" time="0.205"/>
+  <testcase name="WordleDictionary - TAs: if this test fails, let me know - post in #hw2-rubric-tests-issues" classname="edu.virginia.cs.wordle.WordleDictionaryTest" time="0.004"/>
+  <testcase name="WordleDictionary - EQUIVALENCE: contains word didn't work with a mocked set - true expected" classname="edu.virginia.cs.wordle.WordleDictionaryTest" time="0.001"/>
+  <testcase name="WordleDictionary - BOUNDARY: tests false for bad length inputs" classname="edu.virginia.cs.wordle.WordleDictionaryTest" time="0.0"/>
+  <testcase name="WordleDictionary - BOUNDARY: mixedcase - PiZzA - true" classname="edu.virginia.cs.wordle.WordleDictionaryTest" time="0.0"/>
+  <testcase name="WordleDictionary - EQUIVALENCE: isLegalWordleWord - ABCDE" classname="edu.virginia.cs.wordle.WordleDictionaryTest" time="0.0"/>
+  <testcase name="WordleDictionary - EQUIVALENCE: isLegalWordleWord - MUSIC" classname="edu.virginia.cs.wordle.WordleDictionaryTest" time="0.001"/>
+  <testcase name="WordleDictionary - EQUIVALENCE: isLegalWordleWord - ZZZZZ" classname="edu.virginia.cs.wordle.WordleDictionaryTest" time="0.0"/>
+  <testcase name="WordleDictionary - EQUIVALENCE: contains word didn't work with a mocked set - false expected" classname="edu.virginia.cs.wordle.WordleDictionaryTest" time="0.001"/>
+  <testcase name="WordleDictionary - BOUNDARY: size after mocking added words" classname="edu.virginia.cs.wordle.WordleDictionaryTest" time="0.001"/>
+  <testcase name="WordleDictionary - EXCEPTION: addWord - FAILED - mocked" classname="edu.virginia.cs.wordle.WordleDictionaryTest" time="0.0"/>
+  <testcase name="WordleDictionary - EQUIVALENCE: addWord - MUSIC - mocked" classname="edu.virginia.cs.wordle.WordleDictionaryTest" time="0.0"/>
+  <testcase name="WordleDictionary - BOUNDARY: whitespace in middle of word - ha ha - false" classname="edu.virginia.cs.wordle.WordleDictionaryTest" time="0.001"/>
+  <testcase name="WordleDictionary - BOUNDARY: size should be zero before adding any words" classname="edu.virginia.cs.wordle.WordleDictionaryTest" time="0.0"/>
+  <testcase name="WordleDictionary - EXCEPTION: addWord - FAIL - mocked" classname="edu.virginia.cs.wordle.WordleDictionaryTest" time="0.001"/>
+  <testcase name="WordleDictionary - EQUIVALENCE: isLegalWordleWord - !#*$&amp;" classname="edu.virginia.cs.wordle.WordleDictionaryTest" time="0.0"/>
+  <testcase name="WordleDictionary - EQUIVALENCE - one word dictionary test" classname="edu.virginia.cs.wordle.WordleDictionaryTest" time="0.001"/>
+  <testcase name="WordleDictionary - BOUNDARY: lowercase - music - true" classname="edu.virginia.cs.wordle.WordleDictionaryTest" time="0.0"/>
+  <testcase name="WordleDictionary - BOUNDARY: tests false for null" classname="edu.virginia.cs.wordle.WordleDictionaryTest" time="0.0"/>
+  <testcase name="WordleDictionary - EQUIVALENCE: isLegalWordleWord - 12345" classname="edu.virginia.cs.wordle.WordleDictionaryTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

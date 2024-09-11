@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - WordleDictionaryTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>WordleDictionaryTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/edu.virginia.cs.wordle.html">edu.virginia.cs.wordle</a> &gt; WordleDictionaryTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">20</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.216s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Method name</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">WordleDictionary - EQUIVALENCE - one word dictionary test</td>
+<td class="success">testOneWordDictionary()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">WordleDictionary - BOUNDARY: tests false for bad length inputs</td>
+<td class="success">test_BNDRY_isLegalWordleWord_BAD_LENGTH()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">WordleDictionary - BOUNDARY: tests false for null</td>
+<td class="success">test_BNDRY_isLegalWordleWord_null()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">WordleDictionary - BOUNDARY: mixedcase - PiZzA - true</td>
+<td class="success">test_BNDRY_isLegalWordleWord_true_mUsIc_mixed_case()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">WordleDictionary - BOUNDARY: lowercase - music - true</td>
+<td class="success">test_BNDRY_isLegalWordleWord_true_music_lowercase()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">WordleDictionary - BOUNDARY: whitespace in middle of word - ha ha - false</td>
+<td class="success">test_BNDRY_isLegalWordleWord_true_whitespace()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">WordleDictionary - BOUNDARY: size should be zero before adding any words</td>
+<td class="success">test_BNDRY_size_initial()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">WordleDictionary - BOUNDARY: size after mocking added words</td>
+<td class="success">test_BNDRY_size_mocked()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">WordleDictionary - EQUIVALENCE: contains word didn't work with a mocked set - false expected</td>
+<td class="success">test_EQ_Mock_ContainsWord_False()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">WordleDictionary - EQUIVALENCE: contains word didn't work with a mocked set - true expected</td>
+<td class="success">test_EQ_Mock_ContainsWord_True()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">WordleDictionary - EQUIVALENCE: addWord - MUSIC - mocked</td>
+<td class="success">test_EQ_addWord_Basic()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">WordleDictionary - EQUIVALENCE: isLegalWordleWord - 12345</td>
+<td class="success">test_EQ_isLegalWordleWord_false_NUMBER()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">WordleDictionary - EQUIVALENCE: isLegalWordleWord - !#*$&amp;</td>
+<td class="success">test_EQ_isLegalWordleWord_false_SPECIAL_CHARACTERS()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">WordleDictionary - EQUIVALENCE: isLegalWordleWord - ABCDE</td>
+<td class="success">test_EQ_isLegalWordleWord_true_ABCDE()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">WordleDictionary - EQUIVALENCE: isLegalWordleWord - MUSIC</td>
+<td class="success">test_EQ_isLegalWordleWord_true_BASIC()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">WordleDictionary - EQUIVALENCE: isLegalWordleWord - ZZZZZ</td>
+<td class="success">test_EQ_isLegalWordleWord_true_ZZZZZ()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">WordleDictionary - EXCEPTION: addWord - FAILED - mocked</td>
+<td class="success">test_EXCP_addWord_TOO_LONG()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">WordleDictionary - EXCEPTION: addWord - FAIL - mocked</td>
+<td class="success">test_EXCP_addWord_TOO_SHORT()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">WordleDictionary - EXCEPTION: addWord with non letters - AB12!</td>
+<td class="success">test_EXCP_addWord_non_letters()</td>
+<td class="success">0.205s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">WordleDictionary - TAs: if this test fails, let me know - post in #hw2-rubric-tests-issues</td>
+<td class="success">test_WordleDictionary_Mock()</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.5.1</a> at Mar 31, 2023, 3:51:08 PM</p>
+</div>
+</div>
+</body>
+</html>

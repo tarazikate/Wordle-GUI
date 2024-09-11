@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.virginia.cs.wordle.GuessResultTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2023-03-31T19:51:07" hostname="Kates-MacBook-Pro.local" time="0.007">
+  <properties/>
+  <testcase name="GuessResult - EQUIVALENCE - Some Green, some gray - BLANK, SNACK -&gt; ggGgG" classname="edu.virginia.cs.wordle.GuessResultTest" time="0.001"/>
+  <testcase name="GuessResult - EQUIVALENCE - Correct answer Guess Result Test - All Green" classname="edu.virginia.cs.wordle.GuessResultTest" time="0.0"/>
+  <testcase name="GuessResult - BOUNDARY - Multi-letter yellows - ELITE, METER -&gt; YggYY" classname="edu.virginia.cs.wordle.GuessResultTest" time="0.001"/>
+  <testcase name="GuessResult - EQUIVALENCE - Some yellow, some gray - MOUND, SNACK -&gt; gggYg" classname="edu.virginia.cs.wordle.GuessResultTest" time="0.0"/>
+  <testcase name="GuessResult - BOUNDARY - Yellow - letter count mismatch - MELEE, ELITE -&gt; gYggY" classname="edu.virginia.cs.wordle.GuessResultTest" time="0.0"/>
+  <testcase name="GuessResult - BOUNDARY - Yellow - letter count mismatch - METER, BRAKE -&gt; gYggY" classname="edu.virginia.cs.wordle.GuessResultTest" time="0.001"/>
+  <testcase name="GuessResult - EQUIVALENCE - All Three Colors - BRAKE, BARKS -&gt; GYYGg" classname="edu.virginia.cs.wordle.GuessResultTest" time="0.0"/>
+  <testcase name="GuessResult - EXCEPTION - bad word lengths" classname="edu.virginia.cs.wordle.GuessResultTest" time="0.0"/>
+  <testcase name="GuessResult - constructor verification." classname="edu.virginia.cs.wordle.GuessResultTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
